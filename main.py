@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 # Global variables for controlling the slideshow behavior
-toggle_duration = 1  # Default duration for each image
+toggle_duration = 10  # Default duration for each image
 shuffle_images = True  # Whether to shuffle the images
 
 def get_images(directory):
